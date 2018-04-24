@@ -20,24 +20,25 @@
 * Define a code order inside your `<script>` that must be followed throughout all components. Only declare it if you are going to use it in your component. The recommended order is:
 
       1.  imports
-      2.  export default {}
-      3.  props: {}
-      4.  components: {}
-      5.  mixins: []
-      6.  directives: {}
-      7.  data: () => ({})
-      8.  computed: {}
-      9.  filters: {}
-      10.  beforeCreate () {}
-      11.  created () {}
-      12.  beforeMount () {}
-      13.  mounted () {}
-      14.  beforeUpdate () {}
-      15.  updated () {}
-      16.  beforeDestroy () {}
-      17.  destroyed () {}
-      18.  methods () {}
-      19.  watch: () {}
+      2.  export default {
+        2.1.  props: {}
+        2.2.  components: {}
+        2.3.  mixins: []
+        2.4.  directives: {}
+        2.5.  data: () => ({})
+        2.6.  computed: {}
+        2.7.  filters: {}
+        2.8.  beforeCreate () {}
+        2.9.  created () {}
+        2.10.  beforeMount () {}
+        2.11.  mounted () {}
+        2.12.  beforeUpdate () {}
+        2.13.  updated () {}
+        2.14.  beforeDestroy () {}
+        2.15.  destroyed () {}
+        2.16.  methods () {}
+        2.17.  watch: () {}
+      }
 
 * Props must always be an object with a declared type;
 * Props should be declared with lower `camelCase`. However, in the HTML they must be called with `kebab-case`;
