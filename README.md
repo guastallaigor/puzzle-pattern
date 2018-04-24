@@ -57,10 +57,29 @@
 * Only use `mapGetters` when you are manipulating the `state`;
 * Moderate use of [vuex](https://github.com/vuejs/vuex), only in cases when you need the same state in a few components;
 * Using [vuex](https://github.com/vuejs/vuex), always use `mapGetters`, `mapState`, `mapActions` and `mapMutations`, instead of `this.$store`;
+* A [vuex's](https://github.com/vuejs/vuex) action should always return a promise.
 
 ## SHOULD
 
+* Use `computed properties` in your HTML instead of methods;
+* Use `filter`, `map`, `reduce` and `find`;
+* Create customized events rather than props with type Function which returns a callback;
+* Use the `created ()` _Lifecycle_ rather than `mounted ()`;
+* Use `v-if` instead of `v-show`;
+* Use the `.sync` modifier rather than `v-model`;
+* Use display flex rather than other types of display;
+* Import your files with "@" rather than "../";
+* Whenever you are going to duplicate a code, create a mixin instead and declare it locally.
+
 ## AVOID
+
+* Declare global filters;
+* Using watchs, use computed instead;
+* Using `var`, use `const` or `let` instead;
+* Using `else`, prioritize early return;
+* Using `switch case`;
+* Using `forEach`, `for in`, `for` and `while`;
+* Using the attribute `style` static in your HTML tags.
 
 ## DON'T
 
@@ -73,7 +92,7 @@ This is the code style that was used to create this pattern.
 ### TODO
 
 * [ ] Write the "Why use the Puzzle Pattern?" section.
-* [ ] Write the "Should" section.
+* [x] Write the "Should" section.
 * [ ] Write the "Avoid" section.
 * [ ] Write the "Don't" section.
 * [ ] Develop a Puzzle ESLint.
