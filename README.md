@@ -18,25 +18,25 @@
 * Use ES6 in full capacity;
 * Set a default language to be used throughout the project. If it's not your native language, define all the words will not be translated;
 * Define a code order inside your `<script>` that must be followed throughout all components. Only declare it if you are going to use it in your component. The recommended order is:
-        1.  `imports`
-        2.  `export default {}`
-        3.  `props: {}`
-        4.  `components: {}`
-        5.  `mixins: []`
-        6.  `directives: {}`
-        7.  `data: () => ({})`
-        8.  `computed: {}`
-        9.  `filters: {}`
-        10.  `beforeCreate () {}`
-        11.  `created () {}`
-        12.  `beforeMount () {}`
-        13.  `mounted () {}`
-        14.  `beforeUpdate () {}`
-        15.  `updated () {}`
-        16.  `beforeDestroy () {}`
-        17.  `destroyed () {}`
-        18.  `methods () {}`
-        19.  `watch: () {}`
+      1.  `imports`
+      2.  `export default {}`
+      3.  `props: {}`
+      4.  `components: {}`
+      5.  `mixins: []`
+      6.  `directives: {}`
+      7.  `data: () => ({})`
+      8.  `computed: {}`
+      9.  `filters: {}`
+      10.  `beforeCreate () {}`
+      11.  `created () {}`
+      12.  `beforeMount () {}`
+      13.  `mounted () {}`
+      14.  `beforeUpdate () {}`
+      15.  `updated () {}`
+      16.  `beforeDestroy () {}`
+      17.  `destroyed () {}`
+      18.  `methods () {}`
+      19.  `watch: () {}`
 * Props must always be an object with a declared type;
 * Props should be declared with lower `camelCase`. However, in the HTML they must be called with `kebab-case`;
 * Pass a parameter method only when needed;
