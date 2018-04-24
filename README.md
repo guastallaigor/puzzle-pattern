@@ -21,23 +21,24 @@
 
       1.  imports
       2.  export default {
-        2.1.  props: {}
-        2.2.  components: {}
-        2.3.  mixins: []
-        2.4.  directives: {}
-        2.5.  data: () => ({})
-        2.6.  computed: {}
-        2.7.  filters: {}
-        2.8.  beforeCreate () {}
-        2.9.  created () {}
-        2.10.  beforeMount () {}
-        2.11.  mounted () {}
-        2.12.  beforeUpdate () {}
-        2.13.  updated () {}
-        2.14.  beforeDestroy () {}
-        2.15.  destroyed () {}
-        2.16.  methods () {}
-        2.17.  watch: () {}
+        2.1.  name: ''
+        2.2.  props: {}
+        2.3.  components: {}
+        2.4.  mixins: []
+        2.5.  directives: {}
+        2.6.  data: () => ({})
+        2.7.  computed: {}
+        2.8.  filters: {}
+        2.9.  beforeCreate () {}
+        2.10.  created () {}
+        2.11.  beforeMount () {}
+        2.12.  mounted () {}
+        2.13.  beforeUpdate () {}
+        2.14.  updated () {}
+        2.15.  beforeDestroy () {}
+        2.16.  destroyed () {}
+        2.17.  methods () {}
+        2.18.  watch: () {}
       }
 
 * Props must always be an object with a declared type;
