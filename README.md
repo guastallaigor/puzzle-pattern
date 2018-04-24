@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="static/logo.png" width="128px">
+  <img src="puzzle.png" width="128px">
   <h1>Puzzle Pattern</h1>
 </div>
 
@@ -11,10 +11,12 @@
 
 ## Why use the Puzzle Pattern?
 
+...
+
 ## MUST
 
 * Use ES6 in full capacity;
-* Set a default language to be used throughout the project. If it's not your native language, set all the words will not be translated;
+* Set a default language to be used throughout the project. If it's not your native language, define all the words will not be translated;
 * Define a code order inside your `<script>` that must be followed throughout all components. Only declare it if you are going to use it in your component. The recommended order is:
   1. `imports`;
   2. `export default {}`;
@@ -49,9 +51,9 @@
 * When a tag has more than one attribute, put on a line break;
 * Put a line break after each dot inside your script whenever possible;
 * When calling a method inside your HTML component, always put the parentheses "()";
-* Only use mapGetters when you are manipulating the state;
+* Only use `mapGetters` when you are manipulating the `state`;
 * Moderate use of [vuex](https://github.com/vuejs/vuex), only in cases when you need the same state in a few components;
-* Using [vuex](https://github.com/vuejs/vuex), always use mapGetters, mapState, mapActions and mapMutations, instead of this.$store;
+* Using [vuex](https://github.com/vuejs/vuex), always use `mapGetters`, `mapState`, `mapActions` and `mapMutations`, instead of `this.$store`;
 
 ## SHOULD
 
@@ -67,7 +69,8 @@ This is the code style that was used to create this pattern.
 
 ### TODO
 
-* [ ] Create a Puzzle ESLint.
+* [ ] Develop a Puzzle ESLint.
+* [ ] Develop a Puzzle Editor Plugin.
 
 ## License
 
