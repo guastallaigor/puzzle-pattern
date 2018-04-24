@@ -71,6 +71,10 @@ This is the code style that was used to create this pattern.
 
 ### TODO
 
+* [ ] Write the "Why use the Puzzle Pattern?" section.
+* [ ] Write the "Should" section.
+* [ ] Write the "Avoid" section.
+* [ ] Write the "Don't" section.
 * [ ] Develop a Puzzle ESLint.
 * [ ] Develop a Puzzle Editor Plugin.
 
