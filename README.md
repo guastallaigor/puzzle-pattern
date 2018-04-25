@@ -123,7 +123,8 @@ This is the code style that was used to create this pattern and it's recommended
   <img
     align="center"
     src="https://avatars3.githubusercontent.com/u/22016005?s=460&v=4"
-    style="border-radius:80px;border:1px solid #00FF00" width="100px" height="100px"
+    width="48"
+    height="48"
     alt="@guastallaigor">
 </kbd>
 <a align="center" href="https://github.com/guastallaigor">@guastallaigor</a>
@@ -131,10 +132,9 @@ This is the code style that was used to create this pattern and it's recommended
   <img
     align="center"
     src="https://avatars0.githubusercontent.com/u/13594186?s=460&v=4"
-    width="100px"
-    height="100px"
-    alt="@iliojunior"
-    style="border-radius:50%;border:1px solid #00FF00">
+    width="48"
+    height="48"
+    alt="@iliojunior">
 </kbd>
 <a align="center" href="https://github.com/iliojunior">@iliojunior</a>
 
