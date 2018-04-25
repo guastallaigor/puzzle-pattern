@@ -104,7 +104,7 @@
 
 ### Code Style Recommended
 
-This is the code style that was used to create this pattern and it's recommended to use it's full potential.
+This is the code style that was used to create this pattern and it's recommended to use Puzzle Pattern in its full potential.
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
@@ -115,6 +115,7 @@ This is the code style that was used to create this pattern and it's recommended
 ### TODO
 
 * [ ] Write the "Why use the Puzzle Pattern?" section.
+* [ ] Add code examples.
 * [ ] Develop a Puzzle ESLint.
 * [ ] Develop a Puzzle Editor Plugin.
 
