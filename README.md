@@ -128,6 +128,7 @@ This is the code style that was used to create this pattern and it's recommended
       src="/static/contributor_1.png"
       width="100px"
       height="100px"
+      style="padding-right:10px"
       alt="guastallaigor">
   </a>
   <a href="https://github.com/iliojunior">
