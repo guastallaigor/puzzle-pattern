@@ -119,20 +119,24 @@ This is the code style that was used to create this pattern and it's recommended
 
 ## Contributors
 
-  <img
-    align="center"
-    src="https://avatars3.githubusercontent.com/u/22016005?s=460&v=4"
-    width="48"
-    height="48"
-    alt="@guastallaigor">
-    <a align="center" href="https://github.com/guastallaigor">@guastallaigor</a>
-  <img
-    align="center"
-    src="https://avatars0.githubusercontent.com/u/13594186?s=460&v=4"
-    width="48"
-    height="48"
-    alt="@iliojunior">
-    <a align="center" href="https://github.com/iliojunior">@iliojunior</a>
+<div style="display:flex;flex-flow:row wrap;justify-content:center;align-items:center">
+  <a href="https://github.com/guastallaigor">
+    <img
+      align="center"
+      src="https://avatars3.githubusercontent.com/u/22016005?s=460&v=4"
+      width="100px"
+      height="100px"
+      alt="@guastallaigor">
+  </a>
+  <a href="https://github.com/iliojunior">
+    <img
+      align="center"
+      src="https://avatars0.githubusercontent.com/u/13594186?s=460&v=4"
+      width="100px"
+      height="100px"
+      alt="@iliojunior">
+  </a>
+</div>
 
 ## License
 
