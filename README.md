@@ -119,19 +119,20 @@ This is the code style that was used to create this pattern and it's recommended
 
 ## Contributors
 
-<img
-  src="https://avatars3.githubusercontent.com/u/22016005?s=460&v=4"
-  width="100px"
-  height="100px"
-  style="border-radius:50px">
-@guastallaigor
-
-<img
-  src="https://avatars0.githubusercontent.com/u/13594186?s=460&v=4"
-  width="100px"
-  height="100px"
-  style="border-radius:50px">
-@iliojunior
+<div style="display:flex;flex-direction:row;align-items:center">
+  <img
+    src="https://avatars3.githubusercontent.com/u/22016005?s=460&v=4"
+    width="100px"
+    height="100px"
+    alt="@guastallaigor"
+    style="border-radius:50%;border:1px solid #00FF00">
+  <img
+    src="https://avatars0.githubusercontent.com/u/13594186?s=460&v=4"
+    width="100px"
+    height="100px"
+    alt="@iliojunior"
+    style="border-radius:50%;border:1px solid #00FF00">
+</div>
 
 ## License
 
