@@ -100,8 +100,6 @@
 * Use `style`, `height`, `width`, and other __static__ attribute tags inside them directly, create a class instead;
 * Use [jQuery](https://jquery.com/).
 
-...
-
 ### Code Style Recommended
 
 This is the code style that was used to create this pattern and it's recommended to use Puzzle Pattern in its full potential.
@@ -121,7 +119,19 @@ This is the code style that was used to create this pattern and it's recommended
 
 ## Contributors
 
-<a href="graphs/contributors"><img src="https://opencollective.com/puzzle-pattern/contributors.svg?width=890" /></a>
+<img
+  src="https://avatars3.githubusercontent.com/u/22016005?s=460&v=4"
+  width="100px"
+  height="100px"
+  style="border-radius:50px">
+@guastallaigor
+
+<img
+  src="https://avatars0.githubusercontent.com/u/13594186?s=460&v=4"
+  width="100px"
+  height="100px"
+  style="border-radius:50px">
+@iliojunior
 
 ## License
 
