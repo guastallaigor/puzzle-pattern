@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="puzzle.png" width="128px">
+  <img src="/static/puzzle_logo.png" width="128px">
   <h1>Puzzle Pattern</h1>
 </div>
 
@@ -80,7 +80,7 @@
 * Using `switch case`;
 * Using `forEach`, `for in`, `for` and `while`;
 * Using the attribute `style` static in your HTML tags;
-* Using `scoped` on your `<style>`, instead create a CSS class and wrap all your `<template>` on it, then put all other class you have inside that one;
+* Using `scoped` on your `<style>`, instead create a class and wrap all your `<template>` on it, then put all other class you have inside that one;
 * Using the `beforeUpdate ()` and `updated ()` _Lifecycle_;
 * Using the directive `v-html`;
 * Using more than one props type;
@@ -93,22 +93,53 @@
 
 ## DON'T
 
-...
+* Declare global mixins;
+* Use a `div` as an actual `div` using [Pug](https://github.com/pugjs/pug), create a class or id instead;
+* Use v-bind, use the short term (:);
+* Use v-on, use the short term (@);
+* Use `style`, `height`, `width`, and other __static__ attribute tags inside them directly, create a class instead;
+* Use [jQuery](https://jquery.com/).
 
 ### Code Style Recommended
 
-This is the code style that was used to create this pattern and it's recommended to use it's full potential.
+This is the code style that was used to create this pattern and it's recommended to use Puzzle Pattern in its full potential.
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+
+### Template Engine Recommended
+
+[Pug](https://github.com/pugjs/pug) is highly recommended to use in all your `<template>` thorough your project.
 
 ### TODO
 
 * [ ] Write the "Why use the Puzzle Pattern?" section.
-* [x] Write the "Should" section.
-* [x] Write the "Avoid" section.
-* [ ] Write the "Don't" section.
+* [ ] Add code examples.
 * [ ] Develop a Puzzle ESLint.
 * [ ] Develop a Puzzle Editor Plugin.
+
+## Contributors
+
+<!-- src="https://avatars3.githubusercontent.com/u/22016005?s=460&v=4" -->
+
+<div style="display:flex;flex-flow:row wrap;align-items:center">
+  <a href="https://github.com/guastallaigor">
+    <img
+      align="center"      
+      src="/static/contributor_1.png"
+      width="100px"
+      height="100px"
+      style="padding-right:10px"
+      alt="guastallaigor">
+  </a>
+  <a href="https://github.com/iliojunior">
+    <img
+      align="center"
+      src="/static/contributor_2.png"
+      width="100px"
+      height="100px"
+      alt="iliojunior">
+  </a>
+</div>
 
 ## License
 
