@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="puzzle.png" width="128px">
+  <img src="/static/puzzle_logo.png" width="128px">
   <h1>Puzzle Pattern</h1>
 </div>
 
@@ -125,7 +125,7 @@ This is the code style that was used to create this pattern and it's recommended
   <a href="https://github.com/guastallaigor">
     <img
       align="center"      
-      src="/static/guastallaigor.jpeg"
+      src="/static/contributor_1.png"
       width="100px"
       height="100px"
       alt="guastallaigor">
