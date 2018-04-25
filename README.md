@@ -119,14 +119,14 @@ This is the code style that was used to create this pattern and it's recommended
 
 ## Contributors
 
-<div style="display:flex;flex-flow:row wrap;justify-content:center;align-items:center">
+<div style="display:flex;flex-flow:row wrap;align-items:center">
   <a href="https://github.com/guastallaigor">
     <img
       align="center"
       src="https://avatars3.githubusercontent.com/u/22016005?s=460&v=4"
       width="100px"
       height="100px"
-      alt="@guastallaigor">
+      alt="guastallaigor">
   </a>
   <a href="https://github.com/iliojunior">
     <img
@@ -134,7 +134,7 @@ This is the code style that was used to create this pattern and it's recommended
       src="https://avatars0.githubusercontent.com/u/13594186?s=460&v=4"
       width="100px"
       height="100px"
-      alt="@iliojunior">
+      alt="iliojunior">
   </a>
 </div>
 
