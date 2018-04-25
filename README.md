@@ -98,8 +98,8 @@ If you wish to maintain a code pattern throughout your entire project, with clea
 ## DON'T
 
 * Declare global mixins;
-* Use v-bind. Instead, use the short term (:);
-* Use v-on. Instead, use the short term (@);
+* Use the `v-bind` directive. Instead, use the short term (:);
+* Use the `v-on` directive. Instead, use the short term (@);
 * Use a `div` as an actual `div` using [Pug](https://github.com/pugjs/pug). Create a class or id instead;
 * Use `style`, `height`, `width`, and other __static__ attribute tags inside them directly. Create a class instead;
 * Use [jQuery](https://jquery.com/).
