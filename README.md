@@ -36,6 +36,7 @@
 * Using [vuex](https://github.com/vuejs/vuex), always use `mapGetters`, `mapState`, `mapActions` and `mapMutations`, instead of `this.$store`;
 * A [vuex's](https://github.com/vuejs/vuex) action should always return a promise.
 * Define a code order inside your `<script>` that must be followed throughout all components. Only declare it if you are going to use it in your component. The recommended order is:
+
 ⋅⋅⋅1.  imports
 ⋅⋅⋅2.  export default {
   ⋅⋅⋅2.1.  name: ''
