@@ -120,7 +120,7 @@ This is the code style that was used to create this pattern and it's recommended
 ## Contributors
 
 <div style="display:flex;flex-direction:row;align-items:center">
-  <div style="border-radius:50%;border:1px solid #00FF00">
+  <div style="border-radius:80px;border:1px solid #00FF00" width="100px" height="100px">
     <img
       src="https://avatars3.githubusercontent.com/u/22016005?s=460&v=4"
       width="inherit"
