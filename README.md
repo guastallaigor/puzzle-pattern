@@ -18,6 +18,7 @@
 * Use ES6 in full capacity;
 * Set a default language to be used throughout the project. If it's not your native language, define all the words will not be translated;
 * Define a code order inside your `<script>` that must be followed throughout all components. Only declare it if you are going to use it in your component. The recommended order is:
+
       1.  imports
       2.  export default {
         2.1.  name: ''
@@ -38,7 +39,7 @@
         2.16.  destroyed () {}
         2.17.  methods: {}
         2.18.  watch: {}
-      }
+      }      
 * Props must always be an object with a declared type;
 * Props should be declared with lower `camelCase`. However, in the HTML they must be called with `kebab-case`;
 * Pass a parameter method only when needed;
