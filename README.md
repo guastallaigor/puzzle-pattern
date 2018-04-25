@@ -119,6 +119,10 @@ This is the code style that was used to create this pattern and it's recommended
 * [ ] Develop a Puzzle ESLint.
 * [ ] Develop a Puzzle Editor Plugin.
 
+## Contributors
+
+<a href="graphs/contributors"><img src="https://opencollective.com/puzzle-pattern/contributors.svg?width=890" /></a>
+
 ## License
 
 MIT © [guastallaigor](https://github.com/guastallaigor/puzzle-pattern)
