@@ -9,7 +9,7 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/guastallaigor/hare/master/LICENSE)
 
-## Why use the Puzzle Pattern?
+## Why use Puzzle Pattern?
 
 When you are working with several different developers in one single project, the code tends to variate a lot one file to the other.
 
