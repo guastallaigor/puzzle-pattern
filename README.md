@@ -133,7 +133,7 @@ This is the code style that was used to create this pattern and it's recommended
   <a href="https://github.com/iliojunior">
     <img
       align="center"
-      src="https://avatars0.githubusercontent.com/u/13594186?s=460&v=4"
+      src="/static/contributor_2.png"
       width="100px"
       height="100px"
       alt="iliojunior">
