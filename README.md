@@ -4,14 +4,17 @@
 </div>
 
 <p align="center">
-  Puzzle Pattern is a VueJS development pattern created for code organization, using the best practices, clean code, and much more.
+  Puzzle Pattern is a VueJS development pattern created for code organization, while using the best practices, clean code, and much more.
 </p>
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/guastallaigor/hare/master/LICENSE)
 
 ## Why use the Puzzle Pattern?
 
-...
+When you are working with several different developers in one single project, the code tends to variate a lot one file to the other.
+[ESLint](https://eslint.org/) usually helps us with that already. However, there are a lot of cases some linters may look the other way, when it shouldn't.
+If you wish to maintain a code pattern throughout your entire project, with clean and organized code, that can also help with code maintenance
+**This is the pattern for you!**
 
 ## MUST
 
@@ -112,14 +115,11 @@ This is the code style that was used to create this pattern and it's recommended
 
 ### TODO
 
-* [ ] Write the "Why use the Puzzle Pattern?" section.
 * [ ] Add code examples.
 * [ ] Develop a Puzzle ESLint.
 * [ ] Develop a Puzzle Editor Plugin.
 
 ## Contributors
-
-<!-- src="https://avatars3.githubusercontent.com/u/22016005?s=460&v=4" -->
 
 <div style="display:flex;flex-flow:row wrap;align-items:center">
   <a href="https://github.com/guastallaigor">
