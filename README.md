@@ -19,27 +19,27 @@
 * Set a default language to be used throughout the project. If it's not your native language, define all the words will not be translated;
 * Define a code order inside your `<script>` that must be followed throughout all components. Only declare it if you are going to use it in your component. The recommended order is:
 ---
-      1.  imports
-      2.  export default {
-        2.1.  name: ''
-        2.2.  props: {}
-        2.3.  components: {}
-        2.4.  mixins: []
-        2.5.  directives: {}
-        2.6.  data: () => ({})
-        2.7.  computed: {}
-        2.8.  filters: {}
-        2.9.  beforeCreate () {}
-        2.10.  created () {}
-        2.11.  beforeMount () {}
-        2.12.  mounted () {}
-        2.13.  beforeUpdate () {}
-        2.14.  updated () {}
-        2.15.  beforeDestroy () {}
-        2.16.  destroyed () {}
-        2.17.  methods: {}
-        2.18.  watch: {}
-      }      
+  1.  imports
+  2.  export default {
+    2.1.  name: ''
+    2.2.  props: {}
+    2.3.  components: {}
+    2.4.  mixins: []
+    2.5.  directives: {}
+    2.6.  data: () => ({})
+    2.7.  computed: {}
+    2.8.  filters: {}
+    2.9.  beforeCreate () {}
+    2.10.  created () {}
+    2.11.  beforeMount () {}
+    2.12.  mounted () {}
+    2.13.  beforeUpdate () {}
+    2.14.  updated () {}
+    2.15.  beforeDestroy () {}
+    2.16.  destroyed () {}
+    2.17.  methods: {}
+    2.18.  watch: {}
+  }      
 ---
 * Props must always be an object with a declared type;
 * Props should be declared with lower `camelCase`. However, in the HTML they must be called with `kebab-case`;
