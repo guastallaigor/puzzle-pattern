@@ -108,7 +108,7 @@ This is the code style that was used to create this pattern and it's recommended
 
 ### Template Engine Recommended
 
-[Pug](https://github.com/pugjs/pug) is highly recommended to use in all your `<template>` thorough your projects.
+[Pug](https://github.com/pugjs/pug) is highly recommended to use in all your `<template>` thorough your project.
 
 ### TODO
 
