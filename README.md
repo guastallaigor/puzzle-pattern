@@ -15,7 +15,7 @@ When you are working with several different developers in one single project, th
 
 [ESLint](https://eslint.org/) usually helps us with that already. However, there are a lot of cases some linters may look the other way, when it shouldn't.
 
-If you wish to maintain a code pattern throughout your entire project, with clean and organized code, that can also help with code maintenance **this is the pattern for you!**
+If you wish to maintain a code pattern throughout your entire project, with clean and organized code, that can also help with code maintenance, **this is the pattern for you!**
 
 ## MUST
 
