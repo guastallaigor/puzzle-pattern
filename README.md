@@ -123,7 +123,8 @@ This is the code style that was used to create this pattern and it's recommended
   <a href="https://github.com/guastallaigor">
     <img
       align="center"
-      src="https://avatars3.githubusercontent.com/u/22016005?s=460&v=4"
+      <!-- src="https://avatars3.githubusercontent.com/u/22016005?s=460&v=4" -->
+      src="/static/guastallaigor.jpeg"
       width="100px"
       height="100px"
       alt="guastallaigor">
