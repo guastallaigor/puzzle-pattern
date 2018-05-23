@@ -49,7 +49,7 @@ If you wish to maintain a code pattern throughout your entire project, with clea
 * Props should be declared with lower `camelCase`. However, in the HTML they must be called with `kebab-case`;
 * Pass a parameter method only when needed;
 * Prioritize the use of `const`, otherwise use `let`;
-* The `data ()` declaration must be like this: `data: () => ({});`
+* The `data ()` declaration must be like this: `data: () => ({});` or `data: vm => ({});` when you need to use a Vue instance property.
 * If you wish to use the queryString when sending a GET request, use the `{ params }` object;
 * The `export default` must be at the same level of indentation as the `<script>`. The same goes for the first CSS property inside the `<style>`;
 * Remove all unused declarations, `vars` and empty tags. The same goes for the `<script>` and `<style>`;
