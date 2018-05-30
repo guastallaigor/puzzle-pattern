@@ -73,7 +73,7 @@ If you wish to maintain a code pattern throughout your entire project, with clea
 <a name="1.14"></a>
 * [1.14](#1.14) Double quotes in all HTML tag attributes;
 <a name="1.15"></a>
-* [1.15](#1.15) When a tag has more than one attribute, put on a line break;
+* [1.15](#1.15) When a tag has more than one attribute, for each attribute place a line break;
 <a name="1.16"></a>
 * [1.16](#1.16) Put a line break after each dot inside your script whenever possible;
 <a name="1.17"></a>
