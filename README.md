@@ -87,45 +87,79 @@ If you wish to maintain a code pattern throughout your entire project, with clea
 <a name="1.21"></a>
 * [1.21](#1.21) A [vuex's](https://github.com/vuejs/vuex) action should always return a promise.
 
-## SHOULD
+<a name="2"></a>
+## [2](#2) SHOULD
 
-* Use `computed properties` in your HTML instead of methods;
-* Use `filter`, `map`, `reduce` and `find`;
-* Create customized events rather than props with type Function which returns a callback;
-* Use the `created ()` _Lifecycle_ rather than `mounted ()`;
-* Use `v-if` instead of `v-show`;
-* Use the `.sync` modifier rather than `v-model`;
-* Use display flex rather than other types of display;
-* Import your files with "@" rather than "../";
-* Whenever you are going to duplicate a code, create a mixin instead and declare it locally.
+<a name="2.1"></a>
+* [2.1](#2.1) Use `computed properties` in your HTML instead of methods;
+<a name="2.2"></a>
+* [2.2](#2.2) Use `filter`, `map`, `reduce` and `find`;
+<a name="2.3"></a>
+* [2.3](#2.3) Create customized events rather than props with type Function which returns a callback;
+<a name="2.4"></a>
+* [2.4](#2.4) Use the `created ()` _Lifecycle_ rather than `mounted ()`;
+<a name="2.5"></a>
+* [2.5](#2.5) Use `v-if` instead of `v-show`;
+<a name="2.6"></a>
+* [2.6](#2.6) Use the `.sync` modifier rather than `v-model`;
+<a name="2.7"></a>
+* [2.7](#2.7) Use display flex rather than other types of display;
+<a name="2.8"></a>
+* [2.8](#2.8) Import your files with "@" rather than "../";
+<a name="2.9"></a>
+* [2.9](#2.9) Whenever you are going to duplicate a code, create a mixin instead and declare it locally.
 
-## AVOID
+<a name="3"></a>
+## [3](#3) AVOID
 
-* Using watchs, use computed instead;
-* Using `var`, use `const` or `let` instead;
-* Using `else`, prioritize early return;
-* Using `switch case`;
-* Using `forEach`, `for in`, `for` and `while`;
-* Using the attribute `style` static in your HTML tags;
-* Using `scoped` on your `<style>`, instead create a class and wrap all your `<template>` on it, then put all other class you have inside that one;
-* Using the `beforeUpdate ()` and `updated ()` _Lifecycle_;
-* Using the directive `v-html`;
-* Using more than one props type;
-* Declaring global filters;
-* Declaring global directives;
-* Declaring global components with `Vue.component()`;
-* Treating Date as a String, use [momentjs](https://momentjs.com/) instead;
-* Having several levels of indentation;
-* In a request, avoid grabbing all of the `response`. Instead, grab only what you are going to actually use.
+<a name="3.1"></a>
+* [3.1](#3.1) Using watchs, use computed instead;
+<a name="3.2"></a>
+* [3.2](#3.2) Using `var`, use `const` or `let` instead;
+<a name="3.3"></a>
+* [3.3](#3.3) Using `else`, prioritize early return;
+<a name="3.4"></a>
+* [3.4](#3.4) Using `switch case`;
+<a name="3.5"></a>
+* [3.5](#3.5) Using `forEach`, `for in`, `for` and `while`;
+<a name="3.6"></a>
+* [3.6](#3.6) Using the attribute `style` static in your HTML tags;
+<a name="3.7"></a>
+* [3.7](#3.7) Using `scoped` on your `<style>`, instead create a class and wrap all your `<template>` on it, then put all other class you have inside that one;
+<a name="3.8"></a>
+* [3.8](#3.8) Using the `beforeUpdate ()` and `updated ()` _Lifecycle_;
+<a name="3.9"></a>
+* [3.9](#3.9) Using the directive `v-html`;
+<a name="3.10"></a>
+* [3.10](#3.10) Using more than one props type;
+<a name="3.11"></a>
+* [3.11](#3.11) Declaring global filters;
+<a name="3.12"></a>
+* [3.12](#3.12) Declaring global directives;
+<a name="3.13"></a>
+* [3.13](#3.13) Declaring global components with `Vue.component()`;
+<a name="3.14"></a>
+* [3.14](#3.14) Treating Date as a String, use [momentjs](https://momentjs.com/) instead;
+<a name="3.15"></a>
+* [3.15](#3.15) Having several levels of indentation;
+<a name="3.16"></a>
+* [3.16](#3.16) In a request, avoid grabbing all of the `response`. Instead, grab only what you are going to actually use.
 
-## DON'T
+<a name="4"></a>
+## [4](#4) DON'T
 
-* Declare global mixins;
-* Use the `v-bind` directive. Instead, use the short term (:);
-* Use the `v-on` directive. Instead, use the short term (@);
-* Use a `div` as an actual `div` using [Pug](https://github.com/pugjs/pug). Create a class or id instead;
-* Use `style`, `height`, `width`, and other __static__ attribute tags inside them directly. Create a class instead;
-* Use [jQuery](https://jquery.com/).
+<a name="4.1"></a>
+* [4.1](#4.1) Declare global mixins;
+<a name="4.2"></a>
+* [4.2](#4.2) Use the `v-bind` directive. Instead, use the short term (:);
+<a name="4.3"></a>
+* [4.3](#4.3) Use the `v-on` directive. Instead, use the short term (@);
+<a name="4.4"></a>
+* [4.4](#4.4) Use a `div` as an actual `div` using [Pug](https://github.com/pugjs/pug). Create a class or id instead;
+<a name="4.5"></a>
+* [4.5](#4.5) Use `style`, `height`, `width`, and other __static__ attribute tags inside them directly. Create a class instead;
+<a name="4.6"></a>
+* [4.6](#4.6) Use [jQuery](https://jquery.com/).
 
 ### Code Style Recommended
 
