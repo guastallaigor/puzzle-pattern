@@ -1,3 +1,4 @@
+
 <div align="center">
   <img src="/static/puzzle_logo.png" width="128px">
   <h1>Puzzle Pattern</h1>
@@ -17,11 +18,15 @@ When you are working with several different developers in one single project, th
 
 If you wish to maintain a code pattern throughout your entire project, with clean and organized code, that can also help with code maintenance, **this is the pattern for you!**
 
-## MUST
+<a name="1"></a>
+## [1](#1) MUST
 
-* Use ES6 in full capacity;
-* Set a default language to be used throughout the project. If it's not your native language, define all the words will not be translated;
-* Define a code order inside your `<script>` that must be followed throughout all components. Only declare it if you are going to use it in your component. The recommended order is:
+<a name="1.1"></a>
+* [1.1](#1.1) Use ES6 in full capacity;
+<a name="1.2"></a>
+* [1.2](#1.2) Set a default language to be used throughout the project. If it's not your native language, define all the words will not be translated;
+<a name="1.3"></a>
+* [1.3](#1.3) Define a code order inside your `<script>` that must be followed throughout all components. Only declare it if you are going to use it in your component. The recommended order is:
 ```javascript
   // imports
   export default {
@@ -45,24 +50,42 @@ If you wish to maintain a code pattern throughout your entire project, with clea
     watch: {}
   }
 ```
-* Props must always be an object with a declared type;
-* Props should be declared with lower `camelCase`. However, in the HTML they must be called with `kebab-case`;
-* Pass a parameter method only when needed;
-* Prioritize the use of `const`, otherwise use `let`;
-* The `data ()` declaration must be like this: `data: () => ({});` or `data: vm => ({});` when you need to use a Vue instance property.
-* If you wish to use the queryString when sending a GET request, use the `{ params }` object;
-* The `export default` must be at the same level of indentation as the `<script>`. The same goes for the first CSS property inside the `<style>`;
-* Remove all unused declarations, `vars` and empty tags. The same goes for the `<script>` and `<style>`;
-* One line break after all the `imports`;
-* One space always before and after a variable inside an interpolation;
-* Double quotes in all HTML tag attributes;
-* When a tag has more than one attribute, put on a line break;
-* Put a line break after each dot inside your script whenever possible;
-* When calling a method inside your HTML component, always put the parentheses "()";
-* Only use `mapGetters` when you are manipulating the `state`;
-* Moderate use of [vuex](https://github.com/vuejs/vuex), only in cases when you need the same state in a few components;
-* Using [vuex](https://github.com/vuejs/vuex), always use `mapGetters`, `mapState`, `mapActions` and `mapMutations`, instead of `this.$store`;
-* A [vuex's](https://github.com/vuejs/vuex) action should always return a promise.
+<a name="1.4"></a>
+* [1.4](#1.4) Props must always be an object with a declared type;
+<a name="1.5"></a>
+* [1.5](#1.5) Props should be declared with lower `camelCase`. However, in the HTML they must be called with `kebab-case`;
+<a name="1.6"></a>
+* [1.6](#1.6) Pass a parameter method only when needed;
+<a name="1.7"></a>
+* [1.7](#1.7) Prioritize the use of `const`, otherwise use `let`;
+<a name="1.8"></a>
+* [1.8](#1.8) The `data ()` declaration must be like this: `data: () => ({});` or `data: vm => ({});` when you need to use a Vue instance property.
+<a name="1.9"></a>
+* [1.9](#1.9) If you wish to use the queryString when sending a GET request, use the `{ params }` object;
+<a name="1.10"></a>
+* [1.10](#1.10) The `export default` must be at the same level of indentation as the `<script>`. The same goes for the first CSS property inside the `<style>`;
+<a name="1.11"></a>
+* [1.11](#1.11) Remove all unused declarations, `vars` and empty tags. The same goes for the `<script>` and `<style>`;
+<a name="1.12"></a>
+* [1.12](#1.12) One line break after all the `imports`;
+<a name="1.13"></a>
+* [1.13](#1.13) One space always before and after a variable inside an interpolation;
+<a name="1.14"></a>
+* [1.14](#1.14) Double quotes in all HTML tag attributes;
+<a name="1.15"></a>
+* [1.15](#1.15) When a tag has more than one attribute, put on a line break;
+<a name="1.16"></a>
+* [1.16](#1.16) Put a line break after each dot inside your script whenever possible;
+<a name="1.17"></a>
+* [1.17](#1.17) When calling a method inside your HTML component, always put the parentheses "()";
+<a name="1.18"></a>
+* [1.18](#1.18) Only use `mapGetters` when you are manipulating the `state`;
+<a name="1.19"></a>
+* [1.19](#1.19) Moderate use of [vuex](https://github.com/vuejs/vuex), only in cases when you need the same state in a few components;
+<a name="1.20"></a>
+* [1.20](#1.20) Using [vuex](https://github.com/vuejs/vuex), always use `mapGetters`, `mapState`, `mapActions` and `mapMutations`, instead of `this.$store`;
+<a name="1.21"></a>
+* [1.21](#1.21) A [vuex's](https://github.com/vuejs/vuex) action should always return a promise.
 
 ## SHOULD
 
@@ -125,7 +148,7 @@ This is the code style that was used to create this pattern and it's recommended
 <div style="display:flex;flex-flow:row wrap;align-items:center">
   <a href="https://github.com/guastallaigor">
     <img
-      align="center"      
+      align="center"
       src="/static/contributor_1.png"
       width="100px"
       height="100px"
