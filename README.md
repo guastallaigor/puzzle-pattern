@@ -201,6 +201,14 @@ This is the code style that was used to create this pattern and it's recommended
       height="100px"
       alt="iliojunior">
   </a>
+  <a href="https://github.com/EduardoDrozda">
+    <img
+      align="center"
+      src="/static/contributor_3.png"
+      width="100px"
+      height="100px"
+      alt="EduardoDrozda">
+  </a>
 </div>
 
 ## License
