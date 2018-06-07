@@ -86,6 +86,10 @@ If you wish to maintain a code pattern throughout your entire project, with clea
 * [1.20](#1.20) Using [vuex](https://github.com/vuejs/vuex), always use `mapGetters`, `mapState`, `mapActions` and `mapMutations`, instead of `this.$store`;
 <a name="1.21"></a>
 * [1.21](#1.21) A [vuex's](https://github.com/vuejs/vuex) action should always return a promise.
+<a name="1.22"></a>
+* [1.22](#1.22) `HTML` tags must have their declaration in the following order: Tag, id, class, attributes.
+<a name="1.23"></a>
+* [1.22](#1.22) `Destructuring assignment` should be only for variables and never for methods. Example: `let { girls, guys, women, men } = state`
 
 <a name="2"></a>
 ## [2](#2) SHOULD
