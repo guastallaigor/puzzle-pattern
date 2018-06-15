@@ -91,7 +91,7 @@ If you wish to maintain a code pattern throughout your entire project, with clea
 <a name="1.23"></a>
 * [1.23](#1.23) `Destructuring assignment` should be only for variables and never for methods. Example: `let { girls, guys, women, men } = state`.
 <a name="1.24"></a>
-* [1.24](#1.24) Component files must have upper `camel Case` name.
+* [1.24](#1.24) Component files must have upper `camel Case` name (**except** in `index.vue` files).
 
 <a name="2"></a>
 ## [2](#2) SHOULD
