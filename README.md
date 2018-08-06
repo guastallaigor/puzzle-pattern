@@ -169,7 +169,7 @@ If you wish to maintain a code pattern throughout your entire project, with clea
 
 ### Code Style Recommended
 
-This is the code style that was used to create this pattern and it's recommended to use Puzzle Pattern in its full potential.
+This is the code style that was used to create this pattern and it's recommended to use Puzzle Pattern in it's full potential.
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
