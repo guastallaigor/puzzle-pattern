@@ -5,7 +5,7 @@
 </div>
 
 <p align="center">
-  Puzzle Pattern is a VueJS development pattern created for code organization, while using the best practices, clean code, and much more.
+  Puzzle Pattern is a Vue.js development pattern created for code organization, while using the best practices, clean code, and much more.
 </p>
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/guastallaigor/hare/master/LICENSE)
