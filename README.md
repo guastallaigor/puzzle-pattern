@@ -195,7 +195,7 @@ This is the code style that was used to create this pattern and it's recommended
 
 ## Contributors
 
-<div style="display:flex;flex-flow:row wrap;align-items:center">
+<div style="display:flex;flex-flow:row wrap;align-items:center;padding-bottom:20px;">
   <a href="https://github.com/guastallaigor">
     <img
       align="center"
